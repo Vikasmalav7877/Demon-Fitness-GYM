@@ -1195,13 +1195,15 @@ body {
   position:relative;
   overflow:hidden;
   border-radius:8px;
-  background:#f5f9fc;
+  /* background:#f5f9fc; */
   cursor:pointer;
 }
 
 .exercise-card img{
   width:100%;
   display:block;
+  border:2px solid black;
+  border-radius: 5%;
   transition:transform .4s ease;
 }
 
